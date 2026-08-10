@@ -73,6 +73,25 @@ Historical CLTV = Average Order Value × Purchase Frequency
 Retention Percentage =
 (Retained Customers ÷ Initial Cohort Size) × 100
 
+Week 4 – Power BI Dashboard Development
+
+Add this after Week 3:
+
+Week 4 – Power BI Dashboard & Reporting
+Imported the processed datasets into Power BI.
+Connected the cohort retention and CLTV datasets.
+Created KPI cards for:
+Total Revenue
+Total Customers
+Total Orders
+Average Order Value (AOV)
+Purchase Frequency
+Historical CLTV
+Created the Customer Retention Heatmap.
+Created retention trend/line charts.
+Added regional analysis visuals.
+Added slicers for interactive filtering.
+
 <!-- Business Insights -->
 Customer retention decreases as the cohort ages, indicating that fewer customers return in later months.
 Some customer cohorts show higher retention rates, suggesting stronger customer loyalty during specific acquisition periods.
