@@ -92,12 +92,14 @@ Created retention trend/line charts.
 Added regional analysis visuals.
 Added slicers for interactive filtering.
 
-<!-- Business Insights -->
-Customer retention decreases as the cohort ages, indicating that fewer customers return in later months.
-Some customer cohorts show higher retention rates, suggesting stronger customer loyalty during specific acquisition periods.
-Higher Average Order Value (AOV) increases the revenue generated per customer order.
-Customers with higher Purchase Frequency contribute more to overall Customer Lifetime Value (CLTV).
-Regions with higher Historical CLTV represent valuable customer segments and should be prioritized for customer retention initiatives.
-Regions with lower CLTV can be targeted with promotional campaigns and loyalty programs to encourage repeat purchases.
-The Cohort Retention Matrix helps identify customer churn patterns and evaluate the effectiveness of retention strategies.
-The calculated metrics and exported datasets provide a strong foundation for building an interactive Power BI dashboard to support data-driven business decisions.
+<!-- Business Recommendations -->
+Focus retention campaigns on cohorts showing significant retention decline.
+Introduce loyalty programs to encourage repeat purchases.
+Target high-CLTV regions with personalized marketing campaigns.
+Use promotional offers to improve repeat purchases in low-performing regions.
+Monitor cohort retention regularly to identify early signs of customer churn.
+Use CLTV and purchase frequency to prioritize valuable customer segments.
+
+<!-- Conclusion -->
+
+This project analyzed e-commerce customer purchasing behavior using cohort and retention analysis. The data was cleaned and explored using Python and Pandas, followed by cohort creation and customer retention analysis. CLTV and regional analysis were performed to understand customer value and geographic performance. The processed datasets were then used to develop an interactive Power BI dashboard. The analysis provides useful insights into customer retention, purchasing behavior, customer value, and regional performance, supporting data-driven marketing and retention decisions.
