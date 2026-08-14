@@ -49,3 +49,35 @@ Created the OrderMonth column.
 Prepared the cleaned dataset for further analysis.
 
 The cleaned dataset was saved as sales_clean.csv.
+
+## Cohort Analysis
+
+Customers were grouped into cohorts based on their first purchase month.
+### Cohort Month
+The earliest purchase month of each customer was identified as their CohortMonth.
+### Order Month
+The transaction date was converted into a monthly period called OrderMonth.
+Cohort Index
+The difference between the customer's Order Month and Cohort Month was used to determine the Cohort Index.
+
+## Customer Retention Matrix
+The Customer Retention Matrix was created by grouping customers according to:
+CohortMonth
+CohortIndex
+Unique customers were counted using nunique().
+
+## Retention Percentage
+
+Monthly retention percentage was calculated using:
+Retention Percentage = (Retained Customers ÷ Initial Cohort Size) × 100
+Month 0 represents the initial cohort size and is treated as the starting point for calculating subsequent retention percentages.
+
+## Regional Segmentation
+
+Customers were segmented based on their geographic Region.
+For each region, the following metrics were analyzed:
+
+Revenue
+Average Order Value
+Purchase Frequency
+Historical CLTV
